@@ -32,17 +32,7 @@
     
     
       NSLog(@"%@   %li",[user objectForKey:@"name"],(long)[user integerForKey:@"score"]);
-    
-    //////////fnoqjfojkwef
-    ///WEFEWFEWF
-    //FWEFEWFDWE
-    //EWFWEFWEFEWFEWF
-    //////
-    //////
-    /////FWEFWEFEF
-    
-
-    
+        
     
 }
 
