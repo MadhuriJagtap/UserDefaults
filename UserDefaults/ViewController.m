@@ -17,6 +17,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSUserDefaults *user=[NSUserDefaults standardUserDefaults];
+    
+    
+    NSLog(@"%@   %li",[user objectForKey:@"name"],(long)[user integerForKey:@"score"]);
+    
+    
+    [user setValue:@"ABCD" forKey:@"name"];
+    [user setInteger:200 forKey:@"score"];
+    
+    
+    [user synchronize];
+    
+    
+      NSLog(@"%@   %li",[user objectForKey:@"name"],(long)[user integerForKey:@"score"]);
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

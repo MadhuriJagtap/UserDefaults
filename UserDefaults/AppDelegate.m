@@ -17,6 +17,29 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    NSUserDefaults *user=[NSUserDefaults standardUserDefaults];
+    
+    
+    [user setValue:@"" forKey:@"name"];
+    [user setInteger:0 forKey:@"score"];
+    
+    [user synchronize];
+    
+    
+    //////////fnoqjfojkwef
+    ///WEFEWFEWF
+    //FWEFEWFDWE
+    //EWFWEFWEFEWFEWF
+    //////
+    //////
+    /////FWEFWEFEF
+    
+    
+    
+    
+    
     return YES;
 }
 
